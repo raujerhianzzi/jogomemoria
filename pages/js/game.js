@@ -1,6 +1,5 @@
 const grid = document.querySelector('.grid');
 
-
 const createElement = (tag, className) => {
     const element = document.createElement(tag);
     element.className = className;
@@ -10,13 +9,17 @@ const createElement = (tag, className) => {
 
 const createCard = () => {
 
-    const card = createElement('div, card');
-    const front = createElement('div, face front');
-    const back = createElement('div, face back');
+    const card = createElement('div', 'card');
+    const front = createElement('div', 'face front');
+    const back = createElement('div', 'face back');
 
     card.appendChild(front);
     card.appendChild(back);
 
-   return card;
+    return card;     
 }
+createCard();
+
+
+
 

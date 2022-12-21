@@ -26,7 +26,6 @@
     border-radius: 5px;
 }
 .front{
-    background-image: url(../imagens/beth.png);
     transform: rotateY(180deg);
    
 }
