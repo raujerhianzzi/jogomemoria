@@ -33,6 +33,6 @@
    background-image: url(../imagens/back.png);
    backface-visibility: hidden;
 }
-.card:hover{
+.reveal-card{
     transform: rotateY(180deg);
 }
