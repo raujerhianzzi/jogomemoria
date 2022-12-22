@@ -23,6 +23,7 @@
     background-position: center;
     border: 2px solid #39813a;
     border-radius: 5px;
+    transition: all 400ms ease
 }
 .front{
     transform: rotateY(180deg);

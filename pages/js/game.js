@@ -25,6 +25,15 @@ const createElement = (tag, className) => {
 
 let firstCard = '';
 let secondCard = '';
+
+const checkEndGame = () => {
+    const disabledCards = document.querySelectorAll('.disabled-card');
+
+    if (disabledCards.length == 20){
+        alert('Parabéns Você conseguiu!')
+    }
+
+}
 const checkcards = () => {
     const firstCharacter = firstCard.getAttribute('data-character');
     const secondCharacter = secondCard.getAttribute('data-character');
@@ -35,6 +44,8 @@ const checkcards = () => {
 
         firstCard = '';
         secondCard = '';
+
+        checkEndGame();
 
     } else {
 
