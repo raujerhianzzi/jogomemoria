@@ -2,7 +2,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url(../imagens/bg.jpg);
+    background-image: url(./bg.jpg);
     background-size: cover;
     min-height: 100vh;
     align-items: center;
@@ -56,7 +56,7 @@ header{
    
 }
 .back{
-   background-image: url(../imagens/back.png);
+   background-image: url(./back.png);
    backface-visibility: hidden;
 }
 .reveal-card{
